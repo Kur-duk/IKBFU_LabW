@@ -1,0 +1,10 @@
+^C:\USERS\KURDUC\DOCUMENTS\IKBFU\LAB1RESULT\CMAKEFILES\44038C583CD4ED167590F1C2C321F0DF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/KURDUC/Documents/IKBFU/lab1 -BC:/Users/KURDUC/Documents/IKBFU/lab1result --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/KURDUC/Documents/IKBFU/lab1result/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

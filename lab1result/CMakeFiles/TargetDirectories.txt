@@ -1,0 +1,3 @@
+C:/Users/KURDUC/Documents/IKBFU/lab1result/CMakeFiles/example.dir
+C:/Users/KURDUC/Documents/IKBFU/lab1result/CMakeFiles/ALL_BUILD.dir
+C:/Users/KURDUC/Documents/IKBFU/lab1result/CMakeFiles/ZERO_CHECK.dir
